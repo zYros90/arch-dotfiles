@@ -1,3 +1,4 @@
+# sudo pacman -S --noconfirm $(grep -v '^#' packages.lst | awk 'NF {print $1}')
 ### System ###
 pipewire                # audio/video server
 pipewire-alsa           # pipewire alsa client
@@ -26,5 +27,5 @@ tilix
 
 ### Shell ###
 zsh
-oh-my-zsh-git|zsh
-zsh-theme-powerlevel10k-git|zsh oh-my-zsh-git
+# oh-my-zsh-git
+# zsh-theme-powerlevel10k-git
