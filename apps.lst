@@ -1,6 +1,13 @@
 ### System ###
 pipewire                # audio/video server
+pipewire-alsa           # pipewire alsa client
+pipewire-audio          # pipewire audio client
+pipewire-jack           # pipewire jack client
+pipewire-pulse          # pipewire pulseaudio client
+gst-plugin-pipewire     # pipewire gstreamer client
 wireplumber             # pipewire session manager
+pavucontrol             # pulseaudio volume control
+pamixer                 # pulseaudio cli mixer
 qt5-wayland
 qt6-wayland
 network-manager-applet # network manager system tray utility
@@ -15,6 +22,7 @@ dolphin
 firefox
 kitty
 code
+tilix
 
 ### Shell ###
 zsh
