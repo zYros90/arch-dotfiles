@@ -1,0 +1,22 @@
+### System ###
+pipewire                # audio/video server
+wireplumber             # pipewire session manager
+qt5-wayland
+qt6-wayland
+network-manager-applet # network manager system tray utility
+bluez                  # bluetooth protocol stack
+bluez-utils            # bluetooth utility cli
+blueman                # bluetooth manager gui
+brightnessctl          # screen brightness control
+udiskie                # manage removable media
+
+### apps ###
+dolphin
+firefox
+kitty
+code
+
+### Shell ###
+zsh
+oh-my-zsh-git|zsh
+zsh-theme-powerlevel10k-git|zsh oh-my-zsh-git
